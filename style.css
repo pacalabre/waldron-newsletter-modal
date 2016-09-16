@@ -109,15 +109,26 @@
 
   .modal-content {
     margin-top: 100px;
-    height: 60%;
+    height: 65%;
   }
 
   .headline {
-    margin-top: 15%;
+    margin-top: 13%;
+    font-size: 2.25rem;
   }
 
+  .modal-p {
+    font-size: 1.2em;
+  }
 
+  .signup-btn {
+    margin:3% 38%;
+    font-size: 1.2rem;
+  }
 
+  .nothanks-btn {
+    font-size:1rem;
+  }
 }
 
 @media only screen and (min-width: 801px)  {
