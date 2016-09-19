@@ -6,15 +6,12 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <h2>Modal Example</h2>
-    <!-- Open The Modal -->
-    <button id="myBtn">Open Modal</button>
     <!-- The Modal -->
-    <div id="myModal" class="modal">
+    <div id="modal" class="modal">
 
       <!-- Modal content -->
       <div class="modal-content">
-        <span class="close">X</span>
+        <span id="close" class="close">X</span>
         <h1 class="headline">Are You Signed Up For Our Blog Alerts?</h1>
         <p class="modal-p">SIGN UP to receive similar blog posts sent right to your inbox upon being published. Don't worry - we won't spam you.</p>
         <form class="modal-form">
@@ -22,7 +19,7 @@
           <input class="modal-form-input" type="text" />
           <a class="signup-btn" href="">Sign me up!</a>
         </form>
-        <a class="nothanks-btn" href="">No Thank you</a>
+        <button id="noThanks" class="nothanks-btn">No Thank you</button>
       </div>
     </div>
 
