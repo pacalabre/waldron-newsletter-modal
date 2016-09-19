@@ -72,7 +72,7 @@
 /* Modal Content */
 .modal-content {
     background-color: #fff;
-    margin: auto;
+    margin: 55px auto auto auto;
     padding: 20px;
     border: 1px solid #888;
     width: 200px;
@@ -103,7 +103,7 @@
   }
 
   .modal-content {
-    height: 70%;
+    height: 450px;
   }
 }
 
@@ -113,6 +113,14 @@
     margin-top: 100px;
     height: 480px;
     width: 400px;
+  }
+
+  .modal-form-h2 {
+    font-size: 2rem;
+  }
+
+  .modal-form-input {
+    font-size: 1.5rem;
   }
 
   .headline {
@@ -138,8 +146,9 @@
 
   .modal-content {
     margin-top: 100px;
-    height: 65%;
-    background-color: lightblue;
+    height: 530px;
+    width: 650px;
+    /*background-color: lightblue;*/
   }
 
   .headline {
@@ -149,6 +158,14 @@
 
   .modal-p {
     font-size: 1.5em;
+  }
+
+  .modal-form-h2 {
+    font-size: 2.2rem;
+  }
+
+  .modal-form-input {
+    font-size: 1.75rem;
   }
 
   .signup-btn {
