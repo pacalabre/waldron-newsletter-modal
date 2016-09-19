@@ -3,7 +3,7 @@ $(document).ready(function (){
   function countdown() {
     setTimeout(function() {
       showModal();
-    },3000);
+    },4000);
   }
 
   function showModal() {

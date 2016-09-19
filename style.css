@@ -94,12 +94,20 @@
     color: #aaaaaa;
     float: right;
     font-size: 28px;
-    font-weight: bold;
+    margin-top: -5px;
+}
+
+.signup-btn:hover {
+  background-color: #0cdeb1;
+}
+
+.nothanks-btn:hover {
+  color: #0cdeb1;
 }
 
 .close:hover,
 .close:focus {
-    color: #000;
+    color: #0cdeb1;;
     text-decoration: none;
     cursor: pointer;
 }
